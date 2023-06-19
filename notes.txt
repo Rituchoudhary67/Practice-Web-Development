@@ -1,0 +1,26 @@
+Day 1:
+Introduction to WEB DEVLOPMENT
+
+WEB - system
+      doc  res :- acces by using internet 
+      web is a system that contain document and resources which is access by using internet
+      Internet is a big entity in that wed is a samll part 
+
+DEVELOPMENT - Process
+              website - static contant [eg wikipidea,blogs]
+                      - read-only 
+              wed application - dynamic in nature [it means after every reload containt will change]
+              It is a process in which website and web application are created
+
+WEB application - three parts
+                  Front End / UI -> HTML,CSS,JS+REACT
+                  Back End -> Brain of web application 
+                  Database layer -> no SQL, SQL 
+
+MERN STACK DEVELOPER 
+M - Mongo DB 
+E - Express js 
+R - React 
+N - Node js 
+                  
+                                            
