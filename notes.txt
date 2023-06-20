@@ -32,5 +32,58 @@ DAY 2:
 6.Browser Engine
 7.Client and Server
 Note :- write a daily life example to explain this topic.
-                  
+
                                             
+1. NETWORK 
+   wire/wireless
+   pc------> printer ------> xyz --------> mobile = connecting different divices is called network 
+   Network is a system of connecting different divices such as laptop,printer,mobile,ect.
+   ex:- my laptop is connecting to my mobile wi-fi this is networking.
+
+2. LAN (local area network)
+   it work on small scale
+   let say there is a bulding in that one router is there which is connecting to mobile phone,laptop and tablet 
+   so the router is working as LAN
+   ex:- In my house my mobile phone is connected to my laptop, others phone so it work as LAN   
+
+3.MAN(metropolitan area network)
+  It work grater than LAN , it connect city,state 
+  ex:-let say there is three city which is connecting through MAN Nagpur,Amaravati,Buldhana 
+
+4.WAN(Wide arae network)
+  it work on large scale such as connecting countries
+  ex:- India,South Korea and Nepal is connecting through WAN
+
+5.INTERNET 
+  It is global system which connect billions of divices 
+  it is network of network 
+  it consist of LAN,WAN,MAN,laptop,pc,printer,everything....
+
+6.WWW(World Wide Web)
+  it interconnect divices and resources which is access through internet
+
+7. IP Address
+   it is address of divices
+
+8. Browser
+   it is a tool which is uesd to access different divices such as document,resources,website,web application ect
+   ex:- google chrome,opera,safari ect
+
+9. Browser Engine
+   it is used to run web application
+
+10. CLIENT and SERVER 
+    Client is puting request to server and then server send response to client 
+    client - laptop,Browser,app
+    server - database server,file server, app server, web server
+    request - get,post,put,delete
+
+summary
+network - interconnect divices
+internet - sare network ka king
+web - Internet ka small baby
+Browser - softwear tool to access different things
+Browser Engine - backbone of Browser
+Client Server - user interaction(Client) and request fulfillment(Server)
+IP Address - machine address                   
+
