@@ -87,3 +87,43 @@ Browser Engine - backbone of Browser
 Client Server - user interaction(Client) and request fulfillment(Server)
 IP Address - machine address                   
 
+DAY 3 
+1. what is internet?
+   inter-interconnected and net-network it means interconnected networks
+
+2. IPS(Internet service provider)
+
+   machine ---> ISP ---> Internet
+
+3. Protocal STACK
+   protocal means set of rules 
+
+   ------
+   |     |
+   |10 mb|   --------> send in packets 
+   |     |
+   -------
+   
+   ------------------    |                                                   ------------------    ^     
+   | Application    |    |                                                   | Application    |    |
+   |----------------|    |                                                   |----------------|    |
+   |   TCP          |    |                                                   |   TCP          |    |
+   |----------------|    |                                                   |----------------|    |
+   |   IP           |    |                                                   |   IP           |    |
+   |----------------|    |                                                   |----------------|    |
+   |  Hardware      |    V              ____________                         |  Hardware      |    |
+   ------------------  Downward ------> | Internet  |    ------------>       ------------------    |
+                        flow            -------------
+
+
+   gmail works on SMTP [SIMPLE MAIL TRANSPER PROTOCAL]                     
+
+   4. packet travel 
+      client ------> Router -----> ISP ----->Router ------> Server
+
+      Browser------> local ISP -----> regional ISP ---------> NSP   -----> Router ----> IP Address
+
+   5. DNS[Do-main name system]
+      protocal ---HTTP[ hypertext transfer Protocal]    
+                  FTP[ file tranfer protocal]
+                  SMTP[ simple mail transfer protocal]
