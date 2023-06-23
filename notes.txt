@@ -127,3 +127,17 @@ DAY 3
       protocal ---HTTP[ hypertext transfer Protocal]    
                   FTP[ file tranfer protocal]
                   SMTP[ simple mail transfer protocal]
+
+DAY 4 :
+HTML
+html stands for hyper text marup language
+
+what is element?
+
+<html> content </html>
+this combing thing is called element
+
+!DOCTYPE HTML :- it represent what every code we write in html 5
+
+<head> - metadata/seo/title
+<body> - entire contant 
