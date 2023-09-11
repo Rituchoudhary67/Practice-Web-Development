@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -20,7 +19,7 @@
     <main>
         <h2>Welcome to My Website</h2>
         <p>This is a simple website</p>
-        <button>Toggle CSS</button>
+        <button onclick="addcss()" id="btn">Toggle CSS</button>
     </main>
     <footer>
         <p>Copyright © App Brewery</p>
@@ -29,3 +28,15 @@
 
 </body>
 </html>
+
+<script>
+    let count=1;
+    function addcss() {
+        count++;
+        if(count % 2 == 0){
+            document.getElementById('head').innerHTML = `<title>My First Website </title> /n  <link rel="stylesheet" href="style.css">`
+        }else {
+            document.getElementById('head').innerHTML = `<title> My Website </title>`
+        }
+    }
+</script>
