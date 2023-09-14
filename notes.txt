@@ -141,3 +141,14 @@ this combing thing is called element
 
 <head> - metadata/seo/title
 <body> - entire contant 
+
+14-09-2023
+Introduction to CSS
+How to add CSS to HTML file
+there are three ways to adding CSS
+1. Inline   --- same line
+<html style="background:Blue">Colour me Blue</html> 
+
+2. Internl -- within same html page we add css after head section
+
+3. External -- by providing link to css file 
