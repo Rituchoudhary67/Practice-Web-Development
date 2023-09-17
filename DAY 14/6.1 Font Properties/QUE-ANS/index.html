@@ -10,15 +10,18 @@
 </style>
 <body>
     <h1>HTML and CSS Quize</h1>
-    <ol>
-        <li>What is HTML?</li>
-        <input type="text" class="ansOne"> <button onclick="checkAnsOne()">Submit</button>
+    <div class="question">
+        Q.1 What is HTML ?
+    </div>
+    <div class="answer">
+        <input type="text" id="ansOne">
+        <button onclick="checkAnsOne()">Submit</button>
         <p id="result-one"></p>
-    </ol>
+    </div>
 </body>
 <script>
     function checkAnsOne() {
-        var answer = document.getElementsByClassName("ansOne").value;
+        var answer = document.getElementById("ansOne").value;
         if (answer.toLowerCase() === "hyper text markup language" || answer.toLowerCase() === "Hyper Text Markup Language") {
             document.getElementById("result-one").innerHTML = "Correct!";
         } else {
