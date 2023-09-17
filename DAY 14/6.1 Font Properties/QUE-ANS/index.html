@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUE-ANS</title>
+</head>
+<style>
+
+</style>
+<body>
+    <h1>HTML and CSS Quize</h1>
+    <ol>
+        <li>What is HTML?</li>
+        <input type="text" class="ansOne"> <button onclick="checkAnsOne()">Submit</button>
+        <p id="result-one"></p>
+    </ol>
+</body>
+<script>
+    function checkAnsOne() {
+        var answer = document.getElementsByClassName("ansOne").value;
+        if (answer.toLowerCase() === "hyper text markup language" || answer.toLowerCase() === "Hyper Text Markup Language") {
+            document.getElementById("result-one").innerHTML = "Correct!";
+        } else {
+            document.getElementById("result-one").innerHTML = "Incorrect. Try again!"
+        }
+    }
+</script>
+</html>
