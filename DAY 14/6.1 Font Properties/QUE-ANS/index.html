@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUE-ANS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <style>
+* {
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    background: linear-gradient(rgba(107, 180, 164, 0.596),rgba(168, 69, 226, 0.479));
+}
+h1,.question, .answer {
+    background-color: antiquewhite;
+}
+input,button {
+    background-color:whitesmoke;
+}
+button:hover {
+    background-color: rgb(214, 69, 214);
+    cursor: pointer;
+    border: 2px solid grey;
+}
 
 </style>
 <body>
@@ -54,7 +73,11 @@
     }
     function checkAnsThree() {
         var answer = document.getElementById("ansThree").value;
-        if(answer == "")
+        if(answer == "3"){
+            document.getElementById("result-three").innerHTML = "Correct!";
+        } else {
+            document.getElementById("result-three").innerHTML = "Incorrect Try again!"
+        }
     }
 </script>
 </html>
