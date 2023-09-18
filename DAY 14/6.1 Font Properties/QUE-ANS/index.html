@@ -19,12 +19,20 @@
         <p id="result-one"></p>
     </div>
      <div class="question">
-        Q.1 What is HTML ?
+        Q.2 How many type of CSS Selectors(In Number) ?
     </div>
     <div class="answer">
-        <input type="text" id="ansOne">
-        <button onclick="checkAnsOne()">Submit</button>
-        <p id="result-one"></p>
+        <input type="number" id="ansTwo">
+        <button onclick="checkAnsTwo()">Submit</button>
+        <p id="result-two"></p>
+    </div>
+    <div class="question">
+        Q3. How many ways are there to add CSS to HTML file(In Number)?
+    </div>
+    <div class="answer">
+        <input type="number"  id="ansThree">
+        <button onclick="checkAnsThree()">Submit</button>
+        <p id="result-three"></p>
     </div>
 </body>
 <script>
@@ -35,6 +43,18 @@
         } else {
             document.getElementById("result-one").innerHTML = "Incorrect. Try again!"
         }
+    }
+    function checkAnsTwo() {
+        var answer = document.getElementById("ansTwo").value;
+        if (answer.toLowerCase() === "5") {
+            document.getElementById("result-two").innerHTML = "Correct!";
+        } else {
+            document.getElementById("result-two").innerHTML = "Incorrect. Try again!"
+        }
+    }
+    function checkAnsThree() {
+        var answer = document.getElementById("ansThree").value;
+        if(answer == "")
     }
 </script>
 </html>
