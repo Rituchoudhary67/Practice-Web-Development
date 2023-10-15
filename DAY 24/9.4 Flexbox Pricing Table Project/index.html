@@ -14,26 +14,46 @@
     .pricing-container {
       border:5px solid black;
       display: flex;
-      flex-direction: column;
+      /* flex-direction: column; */
       align-items: center;
-      gap: 10px;
+      gap: 20px;
+      justify-content: center;
       
     }
     .pricing-plan {
-      border:5px solid red;
+      /* border:5px solid red; */
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 10px;
+      /* flex-wrap: wrap; */
+      height: 250px;
+      width: 300px;
+      background-color: rgb(228, 223, 223);
     }
     .plan-features {
       list-style: none;
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 5px;
+    }
+    .plan-features li {
+      padding: 5px;
     }
     .plan-button {
       background-color: orangered;
+      border: none;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .plan-title {
+      font-weight: 600;
+    }
+    .plan-price {
+      font-size: 2rem;
+      font-weight: 900;
     }
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
