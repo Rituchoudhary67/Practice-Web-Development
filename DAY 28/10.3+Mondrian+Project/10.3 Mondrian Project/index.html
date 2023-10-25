@@ -19,6 +19,12 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    body {
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      /* border: 5px solid black; */
+    }
     .container {
       display: grid;
       grid-template-rows: 1.5fr 1fr 0.1fr;
@@ -48,9 +54,14 @@
     .three {
       width: 360px;
       height: 295px;
+      display: flex;
+      align-items: end;
     }
     .four {
       background-color:#004592;
+      height: 130px;
+      width: 51px;
+      align-items: end;
     }
   </style>
 </head>
@@ -61,8 +72,10 @@
     <div class="red items"></div>
     <div class="items one"></div>
     <div class="items two"></div>
-    <div class="items three"></div>
-    <div class="items four"></div>
+    <div class="items three">
+      <div class="four"></div>
+    </div>
+    <div class="items"></div>
     <div class="items five"></div>
   </div>
 </body>
