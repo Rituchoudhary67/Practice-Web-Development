@@ -22,19 +22,19 @@
     body {
       display: flex;
       justify-content: center;
+      align-items: center;
+      margin:0;
+      padding:0;
      
-      /* align-items: center; */
-      /* border: 5px solid black; */
     }
     .container {
-      display: grid;
-      grid-template-rows: 1.5fr 1fr 0.1fr;
-      grid-template-columns: 1fr 1.5fr;
       height: 748px;
       width: 748px;
-      /* border: 5px solid aqua; */
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
       background-color: black;
-      gap: 9px ;
+      gap:9px ;
   
     }
     .items {
@@ -42,8 +42,6 @@
     }
     .red {
       background-color: red;
-      height: 414px;
-      width: 320px;
     }
     .one {
       height: 414px;
@@ -101,21 +99,18 @@
 <body>
   <!-- Write your HTML here -->
   <div class="container">
-    <div class="red items"></div>
+    <div class="items red"></div>
     <div class="items one"></div>
     <div class="items two"></div>
-    <div class="parent">
-      <div class="three items"></div>
-      <div class="sub-parent">
-        <div class="four"></div>
-        <div class="items five"></div>
-      </div>
-    </div>
+    <div class="three items"></div>
+
+    <div class="four"></div>
+    <div class="items five"></div>
+    
     <div class="items six"></div>
-    <div class="parent-next">
-      <div class="seven"></div>
-      <div class="eight"></div>
-    </div>
+    <div class="seven"></div>
+    <div class="eight"></div>
+    
   </div>
 </body>
 
