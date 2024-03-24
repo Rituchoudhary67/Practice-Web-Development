@@ -9,7 +9,7 @@ header {
     color:white;
     height: 600px;
     width: 100%;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 .head-sec {
     /* border:2px solid magenta; */
@@ -19,6 +19,7 @@ header {
 }
 .logo {
     font-size: 2em;
+    font-family: serif;
 }
 .head-list li {
     /* border: 2px solid green; */
@@ -30,5 +31,25 @@ header {
 .head-list ul {
     display: flex;
 }
-
+#bars {
+    display: none;
+}
 /* media qurey */
+@media (min-width:319px) and (max-width:480px) {
+    header {
+        height: 300px;
+        width: 480px;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+    .head-list ul{
+        display: none;
+    }
+    #bars {
+        display:flex;
+        font-size: 1.3em; 
+        padding: 10px;
+        margin-left: 70px;
+    }
+}
