@@ -28,12 +28,57 @@ header {
     margin-left: 40px;
     font-size: 1.3em;
 }
+.head-list li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    box-shadow:  0 0 10px rgba(241, 241, 241, 0.979);
+    border-radius: 10px;
+}
 .head-list ul {
     display: flex;
 }
 #bars {
     display: none;
 }
+
+/* hero section is started  */
+.hero {
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 85px;
+    color: white;
+    height: 500px;
+    width: 100%;
+}
+.hero img {
+    height: 450px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 20px;
+    border: 2px solid #535c91;
+}
+.hero img:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #535c91;
+    box-shadow:  0 0 10px rgba(241, 241, 241, 0.979);
+    border-radius: 50px;
+}
+.brief-intro {
+    border: 1px solid green;
+}
+.brief-intro h1,h2,p,button {
+    margin-bottom:20px;
+}
+
+
+
+
+
+
+
 /* media qurey */
 @media (min-width:319px) and (max-width:480px) {
     header {
