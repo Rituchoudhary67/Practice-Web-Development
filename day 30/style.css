@@ -68,9 +68,21 @@ header {
 }
 .brief-intro {
     border: 1px solid green;
+    padding: 20px;
 }
 .brief-intro h1,h2,p,button {
     margin-bottom:20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.brief-intro h1 {
+    font-style: italic;
+    font-family: serif;
+    font-size: 2rem;
+}
+.brief-intro p {
+    font-size: 1.2rem;
+    color: lightgray;
 }
 
 
